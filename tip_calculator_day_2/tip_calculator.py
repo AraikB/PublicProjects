@@ -40,9 +40,9 @@ class TipCalculator:
 
     def __init__(self) -> None:
         self.greeting()
-        self.total_bill_amount = self.get_total_bill()
-        self.number_of_people = self.get_number_of_people()
-        self.tip_percentage = self.get_tip_percentage()
+        self.total_bill_amount: float = self.get_total_bill()
+        self.number_of_people: float = self.get_number_of_people()
+        self.tip_percentage: float = self.get_tip_percentage()
 
     def greeting(self) -> None:
         print("Welcome to the tip calculator!")
