@@ -22,6 +22,7 @@ Hint"""
 
 
 def simple_version():
+    # A less verbose version of the below class
     total_bill_amount = float(input("What was the total bill? "))
     tip_percentage = float(
         input("How much tip would you like to give? 10%, 12%, 15%").replace("%", "")
